@@ -6,23 +6,30 @@ export default StyleSheet.create({
         backgroundColor: "white",
         margin: 10,
         borderRadius: 10,
-
-
     },
     image: {
         height: Dimensions.get('window').height / 4,
         borderTopLeftRadius: 10,
         borderTopRightRadius: 10,
-
-        marginBottom: 10
+        marginBottom: 5,
     },
     title: {
-        marginBottom: 10,
-        marginLeft: 10,
-        fontSize: 'bold'
+        fontWeight: 'bold',
+        fontSize: 18,
     },
     description: {
-        marginBottom: 10,
-        marginLeft: 10
-    }
+        marginTop: 5,
+    },
+    innerContainer: {
+        padding: 5,
+    },
+    author: {
+        fontStyle: "italic",
+
+        marginBottom: 5,
+        color: "blue",
+        fontWeight: "semibold",
+        textAlign: "right",
+        marginRight: 10,
+    },
 })
